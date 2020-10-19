@@ -126,7 +126,10 @@ header {
 .hero-content h2 {
 	font-weight: 800;
 	font-size: 64px;
+	line-height: 64px;
+	letter-spacing: -1px;
 	color: #fff;
+	margin-bottom: 35px;
 }
 .hero-content p {
 	color: #fff;
