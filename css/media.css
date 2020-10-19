@@ -1,0 +1,426 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.custom-navbar-brand img {
+		width: 95%;
+	}
+	.hero-banner {
+		padding: 60px 0;
+		padding-bottom: 60px;
+	}
+	.hero-content h2 {
+		font-size: 25px;
+	}
+	.hero-content p {
+		font-size: 12px;
+		width: 95%;
+	}
+	.hero-form {
+		padding: 0 10px;
+	}
+	.hero-form input {
+		font-size: 15px;
+	}
+	.how-it-works {
+		padding: 50px 0;
+	}
+	.work-section-content h2 {
+		font-size: 28px;
+		line-height: 40px;
+	}
+	.icon-box-color-2 h4 {
+		margin-bottom: 50px;
+	}
+	.icon-box-color-4 h4 {
+		margin-bottom: 50px;
+	}
+	.city-details-section {
+		padding: 50px 0 20px 0;
+	}
+	.city-details-content {
+		padding-left: 20px;
+		padding-top: 180px;
+	}
+	.city-details-content h3 {
+		font-size: 48px;
+	}
+	.city-details-content-second h3 {
+		font-size: 35px;
+	}
+	.city-details-content p {
+		font-size: 14px;
+	}
+	.city-details-content-second p {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.city-details-btn-top-margin {
+		padding-top: 20px;
+	}
+	.slick-next, .slick-prev {
+		padding: 5px 8px;
+	}
+	.slick-prev {
+		position: absolute;
+		top: 100px;
+		left: -30px;
+	}
+	.slick-next {
+		position: absolute;
+		top: 100px;
+		right: -30px;
+	}
+	.card-title {
+		font-size: 16px;
+		width: 100%;
+	}
+	.card-body p {
+		font-size: 12px;
+	}
+	.card-body li p {
+		margin-bottom: 5px;
+	}
+	.newsletter-section {
+		padding: 30px 0;
+	}
+	.newsletter-content h2 {
+		font-size: 30px;
+		line-height: 35px;
+	}
+	.newsletter-vector-design-img {
+		position: absolute;
+		bottom: -230px;
+		left: -240px;
+	}
+	.newsletter-send-design-img {
+		position: absolute;
+		top: 25px;
+		left: -50px;
+	}
+	.newsletter-form input {
+		width: 300px!important;
+	}
+	.newsletter-submit-btn {
+		margin-top: 20px;
+	}
+	.city-collection-section {
+		padding: 70px 0;
+	}
+	.city-collection-header h2 {
+		font-size: 30px;
+	}
+	.collection-card-img-top {
+		height: 200px;
+	}
+	.collection-spot-mark {
+		font-size: 12px;
+		line-height: 12px;
+	}
+	.collection-card-body p {
+		line-height: 20px;
+		width: 100%;
+	}
+	.article-section {
+		padding-bottom: 60px;
+	}
+	.article-text-content {
+		margin-bottom: 50px;
+	}
+	.article-text-content h2 {
+		font-size: 28px;
+	}
+	.article-text-content p {
+		font-size: 16px;
+	}
+	.brand-testimonial-section {
+		padding: 50px 0;
+	}
+	.testimonial-text-content h2 {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.testimonial-text-content h5 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.testimonial-text-content img {
+		position: absolute;
+		top: 55%;
+		bottom: 0;
+		left: -10px;
+	}
+	.mobile-top-margin {
+		margin-top: 50px;
+	}
+	.footer-link-header a:nth-child(1) i {
+		margin-right: 20px;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.hero-banner {
+		padding: 80px 0;
+		padding-bottom: 80px;
+	}
+	.hero-content h2 {
+		font-size: 40px;
+	}
+	.hero-content p {
+		font-size: 16px;
+		width: 85%;
+	}
+	.hero-form {
+		padding: 0 20px;
+	}
+	.work-section-content h2 {
+		font-size: 28px;
+	}
+	.icon-box-color-2 h4 {
+		margin-bottom: 50px;
+	}
+	.icon-box-color-4 h4 {
+		margin-bottom: 50px;
+	}
+	.city-details-content {
+		padding-left: 20px;
+		padding-top: 250px;
+	}
+	.city-details-content h3 {
+		font-size: 48px;
+	}
+	.city-details-content p {
+		font-size: 14px;
+	}
+	.city-details-btn-top-margin {
+		padding-top: 20px;
+	}
+	.slick-prev {
+		position: absolute;
+		top: 100px;
+		left: -60px;
+	}
+	.slick-next {
+		position: absolute;
+		top: 100px;
+		right: -60px;
+	}
+	.newsletter-content h2 {
+		font-size: 30px;
+		line-height: 44px;
+	}
+	.newsletter-vector-design-img {
+		position: absolute;
+		bottom: -230px;
+		left: -240px;
+	}
+	.newsletter-send-design-img {
+		position: absolute;
+		top: 25px;
+		left: -50px;
+	}
+	.newsletter-form input {
+		width: 320px!important;
+	}
+	.city-collection-header h2 {
+		font-size: 40px;
+	}
+	.collection-card-img-top {
+		height: 300px;
+	}
+	.article-text-content {
+		margin-bottom: 50px;
+	}
+	.article-text-content h2 {
+		font-size: 28px;
+	}
+	.article-text-content p {
+		font-size: 16px;
+	}
+	.testimonial-text-content h2 {
+		color: #393F3E;
+		font-size: 40px;
+		font-weight: 800;
+		line-height: 64px;
+		margin-bottom: 60px;
+	}
+	.testimonial-text-content h5 {
+		font-size: 25px;
+		line-height: 40px;
+	}
+	.testimonial-text-content img {
+		position: absolute;
+		top: 55%;
+		bottom: 0;
+		left: -10px;
+	}
+	.mobile-top-margin {
+		margin-top: 50px;
+	}
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.hero-banner {
+		padding: 100px 0;
+		padding-bottom: 100px;
+	}
+	.hero-content h2 {
+		font-size: 55px;
+	}
+	.hero-content p {
+		font-size: 16px;
+		width: 65%;
+	}
+	.hero-form {
+		padding: 0 20px;
+	}
+	.work-section-content h2 {
+		font-size: 35px;
+	}
+	.icon-box-color-2 h4 {
+		margin-bottom: 50px;
+	}
+	.icon-box-color-4 h4 {
+		margin-bottom: 50px;
+	}
+	.city-details-content {
+		padding-left: 20px;
+		padding-top: 250px;
+	}
+	.city-details-content h3 {
+		font-size: 48px;
+	}
+	.city-details-content p {
+		font-size: 14px;
+	}
+	.city-details-btn-top-margin {
+		padding-top: 350px;
+	}
+	.slick-prev {
+		position: absolute;
+		top: 100px;
+		left: -60px;
+	}
+	.slick-next {
+		position: absolute;
+		top: 100px;
+		right: -60px;
+	}
+	.newsletter-content h2 {
+		font-size: 30px;
+		line-height: 44px;
+	}
+	.newsletter-vector-design-img {
+		position: absolute;
+		bottom: -160px;
+		left: -190px;
+	}
+	.newsletter-send-design-img {
+		position: absolute;
+		top: -45px;
+		left: -5px;
+	}
+	.newsletter-form input {
+		width: 220px!important;
+	}
+	.city-collection-header h2 {
+		font-size: 40px;
+	}
+	.collection-card-img-top {
+		height: 300px;
+	}
+	.article-text-content h2 {
+		font-size: 28px;
+	}
+	.article-text-content p {
+		font-size: 16px;
+	}
+	.testimonial-text-content h2 {
+		color: #393F3E;
+		font-size: 40px;
+		font-weight: 800;
+		line-height: 64px;
+		margin-bottom: 60px;
+	}
+	.testimonial-text-content h5 {
+		font-size: 25px;
+		line-height: 40px;
+	}
+	.testimonial-text-content img {
+		position: absolute;
+		top: 45%;
+		bottom: 0;
+		left: -10px;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.hero-form {
+		padding: 0 20px;
+	}
+	.work-section-content h2 {
+		font-size: 48px;
+	}
+	.work-icon-box {
+		padding: 50px 20px;
+	}
+	.slick-prev {
+		position: absolute;
+		top: 100px;
+		left: -70px;
+	}
+	.slick-next {
+		position: absolute;
+		top: 100px;
+		right: -70px;
+	}
+	.card-title {
+		font-size: 16px;
+		width: 100%;
+	}
+	.newsletter-content h2 {
+		font-size: 48px;
+	}
+	.newsletter-vector-design-img {
+		position: absolute;
+		bottom: -230px;
+		left: -240px;
+	}
+	.newsletter-send-design-img {
+		position: absolute;
+		top: 25px;
+		left: -50px;
+	}
+	.newsletter-form input {
+		width: 300px!important;
+	}
+	.city-collection-header h2 {
+		font-size: 48px;
+	}
+	.article-text-content h2 {
+		font-size: 38px;
+	}
+	.article-text-content p {
+		font-size: 16px;
+	}
+	.testimonial-text-content h2 {
+		font-size: 48px;
+	}
+	.testimonial-text-content h5 {
+		font-size: 24px;
+	}
+	.testimonial-text-content img {
+		position: absolute;
+		top: 45%;
+		bottom: 0;
+		left: -40px;
+	}
+	.footer-link-header a:nth-child(1) i {
+		margin-right: 25px;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
