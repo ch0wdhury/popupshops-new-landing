@@ -397,6 +397,9 @@
 	.city-collection-header h2 {
 		font-size: 48px;
 	}
+	.collection-card-title {
+		font-size: 22px;
+	}
 	.article-text-content h2 {
 		font-size: 38px;
 	}
