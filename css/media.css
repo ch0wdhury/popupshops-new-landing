@@ -1,6 +1,6 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-	.custom-navbar-brand img {
+	.custom-navbar-brand svg {
 		width: 95%;
 	}
 	.hero-banner {
@@ -62,12 +62,12 @@
 	.slick-prev {
 		position: absolute;
 		top: 100px;
-		left: -30px;
+		left: -40px;
 	}
 	.slick-next {
 		position: absolute;
 		top: 100px;
-		right: -30px;
+		right: -40px;
 	}
 	.card-title {
 		font-size: 16px;
@@ -91,11 +91,6 @@
 		bottom: -230px;
 		left: -240px;
 	}
-	.newsletter-send-design-img {
-		position: absolute;
-		top: 25px;
-		left: -50px;
-	}
 	.newsletter-form input {
 		width: 300px!important;
 	}
@@ -112,12 +107,16 @@
 		height: 200px;
 	}
 	.collection-spot-mark {
-		font-size: 12px;
+		font-size: 14px;
 		line-height: 12px;
 	}
 	.collection-card-body p {
+		font-size: 14px;
 		line-height: 20px;
 		width: 100%;
+	}
+	.collection-card-title {
+		font-size: 20px;
 	}
 	.article-section {
 		padding-bottom: 60px;
@@ -142,7 +141,7 @@
 		font-size: 20px;
 		line-height: 30px;
 	}
-	.testimonial-text-content img {
+	.testimonial-text-content svg {
 		position: absolute;
 		top: 55%;
 		bottom: 0;
@@ -151,7 +150,7 @@
 	.mobile-top-margin {
 		margin-top: 50px;
 	}
-	.footer-link-header a:nth-child(1) i {
+	.footer-social-icon ul:nth-child(2) li {
 		margin-right: 20px;
 	}
 }
@@ -197,12 +196,12 @@
 	.slick-prev {
 		position: absolute;
 		top: 100px;
-		left: -60px;
+		left: -65px;
 	}
 	.slick-next {
 		position: absolute;
 		top: 100px;
-		right: -60px;
+		right: -65px;
 	}
 	.newsletter-content h2 {
 		font-size: 30px;
@@ -212,11 +211,6 @@
 		position: absolute;
 		bottom: -230px;
 		left: -240px;
-	}
-	.newsletter-send-design-img {
-		position: absolute;
-		top: 25px;
-		left: -50px;
 	}
 	.newsletter-form input {
 		width: 320px!important;
@@ -247,7 +241,7 @@
 		font-size: 25px;
 		line-height: 40px;
 	}
-	.testimonial-text-content img {
+	.testimonial-text-content svg {
 		position: absolute;
 		top: 55%;
 		bottom: 0;
@@ -314,11 +308,6 @@
 		bottom: -160px;
 		left: -190px;
 	}
-	.newsletter-send-design-img {
-		position: absolute;
-		top: -45px;
-		left: -5px;
-	}
 	.newsletter-form input {
 		width: 220px!important;
 	}
@@ -345,7 +334,7 @@
 		font-size: 25px;
 		line-height: 40px;
 	}
-	.testimonial-text-content img {
+	.testimonial-text-content svg {
 		position: absolute;
 		top: 45%;
 		bottom: 0;
@@ -386,11 +375,6 @@
 		bottom: -230px;
 		left: -240px;
 	}
-	.newsletter-send-design-img {
-		position: absolute;
-		top: 25px;
-		left: -50px;
-	}
 	.newsletter-form input {
 		width: 300px!important;
 	}
@@ -412,14 +396,14 @@
 	.testimonial-text-content h5 {
 		font-size: 24px;
 	}
-	.testimonial-text-content img {
+	.testimonial-text-content svg {
 		position: absolute;
 		top: 45%;
 		bottom: 0;
 		left: -40px;
 	}
-	.footer-link-header a:nth-child(1) i {
-		margin-right: 25px;
+	.footer-social-icon ul:nth-child(2) li {
+		margin-right: 30px;
 	}
 }
 
