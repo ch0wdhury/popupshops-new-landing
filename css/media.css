@@ -1,12 +1,12 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 	.custom-navbar-brand svg {
-		width: 95%;
+		width: 170px;
 	}
 	.hero-banner {
 		padding: 60px 0;
 		padding-bottom: 60px;
-	}
+	}	
 	.hero-content h2 {
 		font-size: 20px;
 	}
@@ -19,6 +19,28 @@
 	}
 	.hero-form input {
 		font-size: 15px;
+	}
+	.custom-form-group-button {
+		margin: 0;
+		padding: 0;
+	}
+	.custom-banner-search-btn {
+		width: 100%;
+	}
+	.city-page-banner {
+		padding: 250px 0;
+		padding-bottom: 50px;
+	}
+	.city-page-banner-content h2 {
+		font-size: 40px;
+		line-height: 40px;
+		letter-spacing: -1px;
+		margin-bottom: 30px;
+	}
+	.city-page-banner-content p {
+		font-size: 14px;
+		line-height: 20px;
+		width: 100%;
 	}
 	.how-it-works {
 		padding: 50px 0;
@@ -150,6 +172,115 @@
 	.mobile-top-margin {
 		margin-top: 50px;
 	}
+	.image-gallery-text-content {
+		padding-top: 0;
+		padding-left: 10px;
+	}
+	.image-gallery-text-content h4 {
+		font-size: 30px;
+	}
+	.image-gallery-text-content p {
+		margin-bottom: 15px;
+	}
+	.image-gallery-text-content h6 {
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.more-image-overlay a {
+	    color: #fff;
+	    position: absolute;
+	    top: 45%;
+	    left: 20%;
+	    margin: 0 auto;
+	    vertical-align: middle;
+	    font-size: 12px;
+	    line-height: 20px;
+	    font-weight: 700;
+	}
+	.detail-box-text-content {
+	    padding-left: 10px;
+	    padding-bottom: 50px;
+	}
+	.detail-box-text-content h3 {
+		font-size: 25px;
+	}
+	.detail-box-text-content p {
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.custom-accordion {
+		margin-left: 0;
+	}
+	.legal-insight-header h2 {
+		font-size: 30px;
+		margin-bottom: 30px;
+	}
+	.budget-calculator-wrapper {
+		padding: 10px;
+		padding-bottom: 10px;
+	}
+	.calculation-type-content {
+		font-size: 16px;
+	}
+	.calculation-type-name {
+		font-size: 12px;
+	}
+	.budget-calculator-header h2 {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.budget-calculator-header p {
+		font-size: 12px;
+	}
+	.budget-calculator-result {
+		margin-top: 50px;
+	}
+	.budget-calculator-result h6 {
+		font-size: 12px;
+	}
+	.budget-calculator-result p {
+		font-size: 12px;
+	}
+	.calculation-type-name {
+		font-size: 14px;
+	}
+	.calculation-type-content {
+		font-size: 18px;
+		margin: 0 0;
+	}
+	.calculator-total-name {
+		font-size: 12px;
+	}
+	.calculator-total-number {
+		font-size: 16px;
+	}
+	.city-search-header h2 {
+	    font-size: 30px;
+	}
+	.has-search .form-control-feedback {
+	    line-height: 40px;
+	    font-size: 18px;
+	}
+	.custom-input-group {
+		font-size: 20px;
+	}
+	.city-search-result-content {
+		margin-top: 20px;
+	}
+	.page-item.disabled .page-link {
+		font-size: 10px;
+		padding: 6px 10px;
+	}
+	.page-item {
+		margin: 0 2px;
+	}
+	.page-link {
+	    padding: 6px 10px;
+		font-size: 10px;
+	}
+	.footer-first-column svg {
+		width: 100%;
+	}
 	.footer-social-icon ul:nth-child(2) li {
 		margin-right: 20px;
 	}
@@ -157,6 +288,35 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+	.city-page-banner {
+		padding: 250px 0;
+		padding-bottom: 50px;
+	}
+	.city-page-banner-content h2 {
+		font-size: 45px;
+		line-height: 45px;
+		letter-spacing: -1px;
+		margin-bottom: 30px;
+	}
+	.city-page-banner-content p {
+		font-size: 14px;
+		line-height: 20px;
+		width: 100%;
+	}
+	.city-page-nav-section {
+		padding-top: 20px;
+	}
+	.city-page-nav li {
+		margin-right: 12px;
+	}
+	.city-page-nav li a {
+		padding: 0;
+		padding-bottom: 20px;
+		font-size: 12px;
+	}
+	.city-page-nav li a:hover, .city-page-nav li a.active {
+		padding-bottom: 20px;
+	}
 	.hero-banner {
 		padding: 80px 0;
 		padding-bottom: 80px;
@@ -170,6 +330,13 @@
 	}
 	.hero-form {
 		padding: 0 20px;
+	}
+	.form-background {
+	    padding-right: 15px;
+	}
+	.custom-banner-search-btn {
+	    padding: 25px 30px 30px 24px!important;
+	    width: 70px;
 	}
 	.work-section-content h2 {
 		font-size: 28px;
@@ -250,12 +417,110 @@
 	.mobile-top-margin {
 		margin-top: 50px;
 	}
+	.image-gallery-text-content {
+		padding-top: 0;
+		padding-left: 20px;
+	}
+	.image-gallery-text-content h4 {
+		font-size: 30px;
+	}
+	.image-gallery-text-content p {
+		margin-bottom: 15px;
+	}
+	.image-gallery-text-content h6 {
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.detail-box-text-content {
+	    padding-left: 10px;
+	    padding-bottom: 50px;
+	}
+	.detail-box-text-content h3 {
+		font-size: 30px;
+	}
+	.detail-box-text-content p {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.custom-accordion {
+		margin-left: 5px;
+	}
+	.legal-insight-header h2 {
+		font-size: 35px;
+		margin-bottom: 30px;
+	}
+	.budget-calculator-wrapper {
+		padding: 40px;
+		padding-bottom: 20px;
+	}
+	.calculation-type-content {
+		font-size: 16px;
+	}
+	.calculation-type-name {
+		font-size: 12px;
+	}
+	.budget-calculator-header h2 {
+		font-size: 35px;
+	}
+	.budget-calculator-header p {
+		font-size: 14px;
+	}
+	.budget-calculator-result {
+		margin-top: 50px;
+	}
+	.budget-calculator-result h6 {
+		font-size: 12px;
+	}
+	.budget-calculator-result p {
+		font-size: 12px;
+	}
+	.city-search-header h2 {
+	    font-size: 35px;
+	}
+	.has-search .form-control-feedback {
+	    line-height: 44px;
+	    font-size: 18px;
+	}
+	.custom-input-group {
+		font-size: 22px;
+	}
+	.city-search-result-content {
+		margin-top: 20px;
+	}
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+	.city-page-banner {
+		padding: 250px 0;
+		padding-bottom: 50px;
+	}
+	.city-page-banner-content h2 {
+		font-size: 50px;
+		line-height: 50px;
+		font-weight: 800;
+		letter-spacing: -1px;
+		color: #fff;
+		margin-bottom: 30px;
+	}
+	.city-page-banner-content p {
+		font-size: 16px;
+		line-height: 20px;
+		width: 90%;
+	}
+	.city-page-nav li {
+		margin-right: 25px;
+	}
+	.city-page-nav li a {
+		padding: 0;
+		padding-bottom: 30px;
+		font-size: 14px;
+	}
 	.hero-banner {
 		padding: 100px 0;
 		padding-bottom: 100px;
+	}
+	.custom-banner-search-btn {
+	    width: 100px;
 	}
 	.hero-content h2 {
 		font-size: 50px;
@@ -340,12 +605,73 @@
 		bottom: 0;
 		left: -10px;
 	}
+	.image-gallery-text-content {
+		padding-top: 0;
+		padding-left: 20px;
+	}
+	.image-gallery-text-content h4 {
+		font-size: 30px;
+	}
+	.image-gallery-text-content p {
+		margin-bottom: 15px;
+	}
+	.image-gallery-text-content h6 {
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.detail-box-text-content {
+	    padding-left: 5px;
+	    padding-bottom: 50px;
+	}
+	.detail-box-text-content h3 {
+		font-size: 25px;
+		line-height: 40px;
+	}
+	.detail-box-text-content p {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.custom-accordion {
+		margin-left: 10px;
+	}
+	.legal-insight-header h2 {
+		font-size: 40px;
+		margin-bottom: 30px;
+	}
+	.budget-calculator-header h2 {
+		font-size: 40px;
+	}
+	.budget-calculator-header p {
+		font-size: 16px;
+	}
+	.budget-calculator-result {
+		margin-top: 50px;
+	}
+	.city-search-header h2 {
+	    font-size: 40px;
+	}
+	.city-search-result-content {
+		margin-top: 30px;
+	}
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
 	.hero-form {
 		padding: 0 20px;
+	}
+	.city-page-banner {
+		padding: 400px 0;
+		padding-bottom: 50px;
+	}
+	.city-page-banner-content p {
+		width: 85%;
+	}
+	.city-page-nav li {
+		margin-right: 40px;
+	}
+	.form-background {
+	    padding-right: 28px;
 	}
 	.work-section-content h2 {
 		font-size: 48px;
@@ -401,6 +727,24 @@
 		top: 45%;
 		bottom: 0;
 		left: -40px;
+	}
+	.image-gallery-text-content p {
+		margin-bottom: 35px;
+	}
+	.budget-calculator-header h2 {
+		font-size: 48px;
+	}
+	.budget-calculator-header p {
+		font-size: 16px;
+	}
+	.budget-calculator-wrapper {
+		padding: 40px;
+	}
+	.calculation-type-content {
+		font-size: 16px;
+	}
+	.calculation-type-name {
+		font-size: 12px;
 	}
 	.footer-social-icon ul:nth-child(2) li {
 		margin-right: 30px;
