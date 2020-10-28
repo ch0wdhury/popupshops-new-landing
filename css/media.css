@@ -82,6 +82,10 @@
 	.city-details-btn-top-margin {
 		padding-top: 20px;
 	}
+	.city-details-btn {
+		padding: 18px 10px;
+		font-size: 12px;
+	}
 	.slick-next, .slick-prev {
 		padding: 5px 8px;
 		z-index: 999;
@@ -134,7 +138,8 @@
 		padding: 70px 0;
 	}
 	.city-collection-header h2 {
-		font-size: 25px;
+		font-size: 22px;
+		margin: auto;
 	}
 	.collection-card-img-top {
 		height: 300px;
