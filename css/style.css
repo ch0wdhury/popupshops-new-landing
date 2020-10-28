@@ -952,6 +952,7 @@ header {
 	line-height: 24px;
 	color: #747978;
 	padding: 16px;
+	cursor: pointer;
 }
 .legal-insight-nav a span {
 	font-weight: 300;
@@ -1060,12 +1061,24 @@ header {
 	padding: 70px;
 	padding-bottom: 40px;
 }
-.calculation-type-name {
+.text-input-edit {
+	font-size: 20px;
 	font-weight: 700;
-	font-size: 14px;
-	line-height: 24px;
-	color: #747978;
-	margin: 16px 0;
+	color: #393F3E;
+	border: none;
+	display: none;
+	margin-top: 15px;
+	border: none;
+}
+.text-input-edit:hover, .text-input-edit:focus {
+	font-size: 20px;
+	width: 200px;
+	color: #393F3E;
+	border: none;
+	outline: none!important;
+	border: none!important;
+	box-shadow: none!important;
+	border: 1px solid #EAEAE7;
 }
 .calculation-type-content {
 	font-weight: 700;
@@ -1074,12 +1087,65 @@ header {
 	color: #393F3E;
 	margin: 16px 0;
 }
+.calculator-select>.btn.dropdown-toggle {
+	width: 130px;
+	background-color: #fff;
+	font-weight: 700!important;
+	font-size: 20px;
+	line-height: 24px;
+	color: #393F3E;
+	border: none;
+	padding: 0;
+}
+.calculator-select>.dropdown-toggle .filter-option-inner-inner {
+    font-weight: 700;
+}
+.calculator-select>.btn.dropdown-toggle:focus, .calculator-select>.btn.dropdown-toggle:hover {
+	border: none!important;
+	outline: none!important;
+	box-shadow: none!important;
+	background-color: #fff;
+}
+.calculator-select>.btn.dropdown-toggle::after {
+	content: '\e933';
+	display: block;
+	color: #9AA09E;
+	font-size: 16px;
+	font-family: 'icomoon';
+}
+.calculator-select.show>.btn.dropdown-toggle::after {
+	content: '\e933';
+	display: block;
+	color: #9AA09E;
+	font-size: 16px;
+	transform: (0deg)
+	font-family: 'icomoon';
+}
+.calculation-type-name {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px;
+	color: #747978;
+	margin: 16px 0;
+}
+.calculation-type-content span {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px;
+	color: #9AA09E;
+/*	margin: 16px 0;*/
+}
 .calculation-type-content a {
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 24px;
 	color: #9AA09E;
 	margin: 16px 0;
+}
+.tenants-donut-chart-legend{
+	text-align: center;
+	margin: 1.5em 0;
+	display: none;
 }
 .calculator-legend-color {
 	height: 8px;

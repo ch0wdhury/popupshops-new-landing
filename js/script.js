@@ -31,6 +31,53 @@
     });
   });
 
+    $(".legal-insight-nav-link-1").click(function () {
+      $(".law-q-1").text('General right of tenant to sublease?');
+      $(".law-a-1").text('Libris habemus lucilius ei vix, congue reformidans ad quo. In qui oratio dolore, sea te voluptua lobortis. Ut rebum melius docendi mea. Mea ne cetero praesent. In eam saepe labitur. Ei laudem ignota persius nam, modus vitae eam ne.');
+      $(".law-q-2").text('Are there any restrictions on subleasing for 1-12 months?');
+      $(".law-a-2").text('Libris habemus lucilius ei vix, congue reformidans ad quo. In qui oratio dolore, sea te voluptua lobortis. Ut rebum melius docendi mea. Mea ne cetero praesent. In eam saepe labitur. Ei laudem ignota persius nam, modus vitae eam ne.');
+      $(".law-q-3").text('If you answered the last question with yes, please elaborate what restrictions apply');
+      $(".law-a-3").text('Libris habemus lucilius ei vix, congue reformidans ad quo. In qui oratio dolore, sea te voluptua lobortis. Ut rebum melius docendi mea. Mea ne cetero praesent. In eam saepe labitur. Ei laudem ignota persius nam, modus vitae eam ne.');
+        $(this).addClass('active').siblings().removeClass('active');
+    });
+    $(".legal-insight-nav-link-2").click(function () {
+      $(".law-q-1").text('Are there any restrictions on subleasing for 1-12 months?');
+      $(".law-a-1").text('Libris habemus lucilius ei vix, congue reformidans ad quo. In qui oratio dolore, sea te voluptua lobortis. Ut rebum melius docendi mea. Mea ne cetero praesent. In eam saepe labitur. Ei laudem ignota persius nam, modus vitae eam ne.');
+      $(".law-q-2").text('If you answered the last question with yes, please elaborate what restrictions apply');
+      $(".law-a-2").text('Libris habemus lucilius ei vix, congue reformidans ad quo. In qui oratio dolore, sea te voluptua lobortis. Ut rebum melius docendi mea. Mea ne cetero praesent. In eam saepe labitur. Ei laudem ignota persius nam, modus vitae eam ne.');
+      $(".law-q-3").text('General right of tenant to sublease?');
+      $(".law-a-3").text('Libris habemus lucilius ei vix, congue reformidans ad quo. In qui oratio dolore, sea te voluptua lobortis. Ut rebum melius docendi mea. Mea ne cetero praesent. In eam saepe labitur. Ei laudem ignota persius nam, modus vitae eam ne.');
+        $(this).addClass('active').siblings().removeClass('active');
+    });
+    $(".legal-insight-nav-link-3").click(function () {
+      $(".law-q-1").text('If you answered the last question with yes, please elaborate what restrictions apply');
+      $(".law-a-1").text('Libris habemus lucilius ei vix, congue reformidans ad quo. In qui oratio dolore, sea te voluptua lobortis. Ut rebum melius docendi mea. Mea ne cetero praesent. In eam saepe labitur. Ei laudem ignota persius nam, modus vitae eam ne.');
+      $(".law-q-2").text('Are there any restrictions on subleasing for 1-12 months?');
+      $(".law-a-2").text('Libris habemus lucilius ei vix, congue reformidans ad quo. In qui oratio dolore, sea te voluptua lobortis. Ut rebum melius docendi mea. Mea ne cetero praesent. In eam saepe labitur. Ei laudem ignota persius nam, modus vitae eam ne.');
+      $(".law-q-3").text('General right of tenant to sublease?');
+      $(".law-a-3").text('Libris habemus lucilius ei vix, congue reformidans ad quo. In qui oratio dolore, sea te voluptua lobortis. Ut rebum melius docendi mea. Mea ne cetero praesent. In eam saepe labitur. Ei laudem ignota persius nam, modus vitae eam ne.');
+        $(this).addClass('active').siblings().removeClass('active');
+    });
+    $(".legal-insight-nav-link-4").click(function () {
+      $(".law-q-1").text('General right of tenant to sublease?');
+      $(".law-a-1").text('Libris habemus lucilius ei vix, congue reformidans ad quo. In qui oratio dolore, sea te voluptua lobortis. Ut rebum melius docendi mea. Mea ne cetero praesent. In eam saepe labitur. Ei laudem ignota persius nam, modus vitae eam ne.');
+      $(".law-q-2").text('Are there any restrictions on subleasing for 1-12 months?');
+      $(".law-a-2").text('Libris habemus lucilius ei vix, congue reformidans ad quo. In qui oratio dolore, sea te voluptua lobortis. Ut rebum melius docendi mea. Mea ne cetero praesent. In eam saepe labitur. Ei laudem ignota persius nam, modus vitae eam ne.');
+      $(".law-q-3").text('If you answered the last question with yes, please elaborate what restrictions apply');
+      $(".law-a-3").text('Libris habemus lucilius ei vix, congue reformidans ad quo. In qui oratio dolore, sea te voluptua lobortis. Ut rebum melius docendi mea. Mea ne cetero praesent. In eam saepe labitur. Ei laudem ignota persius nam, modus vitae eam ne.');
+        $(this).addClass('active').siblings().removeClass('active');
+    });
+    $(".legal-insight-nav-link-5").click(function () {
+      $(".law-q-1").text('Are there any restrictions on subleasing for 1-12 months?');
+      $(".law-a-1").text('Libris habemus lucilius ei vix, congue reformidans ad quo. In qui oratio dolore, sea te voluptua lobortis. Ut rebum melius docendi mea. Mea ne cetero praesent. In eam saepe labitur. Ei laudem ignota persius nam, modus vitae eam ne.');
+      $(".law-q-2").text('If you answered the last question with yes, please elaborate what restrictions apply');
+      $(".law-a-2").text('Libris habemus lucilius ei vix, congue reformidans ad quo. In qui oratio dolore, sea te voluptua lobortis. Ut rebum melius docendi mea. Mea ne cetero praesent. In eam saepe labitur. Ei laudem ignota persius nam, modus vitae eam ne.');
+      $(".law-q-3").text('General right of tenant to sublease?');
+      $(".law-a-3").text('Libris habemus lucilius ei vix, congue reformidans ad quo. In qui oratio dolore, sea te voluptua lobortis. Ut rebum melius docendi mea. Mea ne cetero praesent. In eam saepe labitur. Ei laudem ignota persius nam, modus vitae eam ne.');
+        $(this).addClass('active').siblings().removeClass('active');
+    });
+
+
   //Donut Chart Configure
 
     var randomScalingFactor = function() {

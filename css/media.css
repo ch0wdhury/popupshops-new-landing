@@ -8,7 +8,8 @@
 		padding-bottom: 60px;
 	}	
 	.hero-content h2 {
-		font-size: 20px;
+		font-size: 30px;
+		line-height: 30px;
 	}
 	.hero-content p {
 		font-size: 12px;
@@ -49,11 +50,14 @@
 		font-size: 28px;
 		line-height: 40px;
 	}
-	.icon-box-color-2 h4 {
-		margin-bottom: 50px;
+	.work-icon-box {
+		padding: 20px 15px;
+		margin-bottom: 40px;
+		min-height: 50px;
+		height: auto;
 	}
-	.icon-box-color-4 h4 {
-		margin-bottom: 50px;
+	.work-icon-box h4 {
+		margin: 10px auto;
 	}
 	.city-details-section {
 		padding: 50px 0 20px 0;
@@ -80,16 +84,20 @@
 	}
 	.slick-next, .slick-prev {
 		padding: 5px 8px;
+		z-index: 999;
+		background-color: transparent;
+		border-color: #fff;
+		color: #fff;
 	}
 	.slick-prev {
 		position: absolute;
-		top: 100px;
-		left: -40px;
+		top: 120px;
+		left: 5px;
 	}
 	.slick-next {
 		position: absolute;
-		top: 100px;
-		right: -40px;
+		top: 120px;
+		right: 5px;
 	}
 	.card-title {
 		font-size: 16px;
@@ -119,14 +127,17 @@
 	.newsletter-submit-btn {
 		margin-top: 20px;
 	}
+	.brand-content-scroll img {
+		vertical-align: middle;
+	}
 	.city-collection-section {
 		padding: 70px 0;
 	}
 	.city-collection-header h2 {
-		font-size: 30px;
+		font-size: 25px;
 	}
 	.collection-card-img-top {
-		height: 200px;
+		height: 300px;
 	}
 	.collection-spot-mark {
 		font-size: 14px;
@@ -168,6 +179,12 @@
 		top: 55%;
 		bottom: 0;
 		left: -10px;
+	}
+	.testimonial-logo-top-margin {
+		margin-top: 0;
+	}
+	.city-details-places-mobile {
+		margin-top: 20px;
 	}
 	.mobile-top-margin {
 		margin-top: 50px;
