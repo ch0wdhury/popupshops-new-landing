@@ -127,6 +127,7 @@
 	}
 	.newsletter-form input {
 		width: 300px!important;
+		margin-top: 20px;
 	}
 	.newsletter-submit-btn {
 		margin-top: 20px;
@@ -208,13 +209,10 @@
 		font-size: 14px;
 		line-height: 24px;
 	}
-	.more-image-overlay a {
-	    color: #fff;
-	    position: absolute;
-	    top: 45%;
-	    left: 20%;
-	    margin: 0 auto;
-	    vertical-align: middle;
+	.more-photos-overlay-wrap p {
+		position: absolute;
+		top: 40%;
+		left: 20%;
 	    font-size: 12px;
 	    line-height: 20px;
 	    font-weight: 700;
@@ -305,6 +303,44 @@
 	}
 	.footer-social-icon ul:nth-child(2) li {
 		margin-right: 20px;
+	}
+	.city-search-result-content #map {
+		height: 200px!important;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.save-search-float-section {
+		padding: 20px 10px 25px 10px;
+		position: sticky;
+		bottom: 20px;
+		left: 0;
+		width: 100%;
+	}
+	.save-search-float-section h3 {
+		font-size: 20px;
+	}
+	.save-search-float-section p {
+		font-size: 12px;
+	}
+	.modal-content {
+		width: 300px;
+	}
+	.save-search-modal-body {
+		padding: 20px 20px;
+		padding-top: 10px;
+		width: 100%;
+	}
+	.save-search-modal-body h3 {
+		font-size: 22px;
+		line-height: 20px;
+	}
+	.save-search-modal-body h6 {
+		font-size: 14px;
+		line-height: 20px;
+		margin-bottom: 25px;
+	}
+	.custom-form-input {
+		width: 100%;
 	}
 }
 
@@ -509,6 +545,26 @@
 	.city-search-result-content {
 		margin-top: 20px;
 	}
+	.search-page-result-image img {
+		width: 95%;
+	}
+	.modal-content {
+		width: 650px;
+	}
+	.save-search-float-section {
+		width: 100%;
+	}
+	.save-search-modal-body {
+		padding: 40px 70px;
+		padding-top: 10px;
+		width: 100%;
+	}
+	.card-title-layout-2 {
+	    white-space: nowrap;
+    	overflow: hidden;
+    	text-overflow: ellipsis;
+    	width: 200px!important;
+	}
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -641,6 +697,11 @@
 		font-size: 14px;
 		line-height: 24px;
 	}
+	.more-photos-overlay-wrap p {
+		position: absolute;
+		top: 40%;
+		left: 25%;
+	}
 	.detail-box-text-content {
 	    padding-left: 5px;
 	    padding-bottom: 50px;
@@ -674,6 +735,59 @@
 	}
 	.city-search-result-content {
 		margin-top: 30px;
+	}
+	.search-page-result-image img {
+		height: 150px;
+	}
+	.search-page-city-content .card-title {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		width: 200px;
+	}
+	.search-page-result-price {
+		margin: auto;
+		vertical-align: middle;
+	}
+	.search-page-result-price p {
+		font-size: 11px;
+	}
+	.card-online-bookable-mark {
+		font-size: 10px;
+		line-height: 18px;
+		margin-bottom: 5px;
+	}
+	.card-top-pick-mark {
+		font-size: 10px;
+		line-height: 18px;
+		margin-bottom: 5px;
+	}
+	.save-search-float-section {
+		padding: 15px 15px 15px 25px;
+		position: sticky;
+		bottom: 20px;
+		left: 0;
+		width: 99%;
+	}
+	.save-search-float-section h3 {
+		font-size: 20px;
+	}
+	.save-search-float-section p {
+		font-size: 12px;
+	}
+	.modal-content {
+		width: 700px;
+	}
+	.save-search-modal-body {
+		padding: 50px 80px;
+		padding-top: 10px;
+		width: 100%;
+	}
+	.card-title-layout-2 {
+	    white-space: nowrap;
+    	overflow: hidden;
+    	text-overflow: ellipsis;
+    	width: 120px!important;
 	}
 }
 
